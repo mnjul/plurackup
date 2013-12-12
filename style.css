@@ -1,0 +1,144 @@
+		/* Feel free to edit this file to suit your needs. */
+		/* This stylesheet will be copied into the generated HTML files, and is
+		   not needed as an individual file for browsing. */
+		*{
+			font-family: Verdana, sans-serif;
+			color:black;
+			font-size: 9pt;
+		}
+		body{
+			padding-left: 15%;
+			padding-right: 15%;
+			padding-bottom: 30px;
+			background-color: #c8c8c8;
+		}
+		h1{
+			font-size: 14pt;
+			text-align: center;
+		}
+		/* reset */
+		p{
+			margin: 0;
+		}
+		p.smallnote{
+			font-size: 8pt;
+			color: gray;
+			text-align: center;
+		}
+		div.plurk_block{
+			border: 1px solid gray;
+			margin-top: 30px;
+			background: white;
+		}
+		/* reset */
+		hr.pb_hr{
+			border: none;
+			border-top: 1px solid gray;
+			margin: 0;
+		}
+		div.pb_responseoffset{
+			background-color:gray;
+			padding-left:20px;
+		}
+		/* reset */
+		table{
+			margin: none;
+		}
+		table.pb_plurk, table.pb_response{
+			border-collapse:collapse;		
+		}
+		table.pb_plurk, table.pb_response, table.pb_plurk td, table.pb_response td{
+			border: none;
+			padding: 3px 4px;
+			vertical-align: top;
+			text-align: left;
+		}
+		table.pb_plurk, table.pb_plurk td.pb_plurk_content, table.pb_response, table.pb_response td.pb_response_content{
+			width:100%;
+		}
+		td.pb_plurk_name_qualifier, td.pb_response_name_qualifier{
+			white-space: nowrap;
+		}
+		a{
+			color: #5e88a5;
+		}
+		a:link, a:visited{
+			text-decoration: none;
+		}
+		a:active, a:focus, a:hover{
+			text-decoration: underline;
+		}
+		td.pb_plurk_content img, td.pb_response_content img{
+			border: none;
+			vertical-align: middle;
+		}
+		.plurk_name{
+			font-weight: bold;
+			color: #333333;
+		}
+		table.pb_response_unknown_user a{
+			color: #adc2d1;
+		}
+		table.pb_response_unknown_user .plurk_name{
+			color: #a8a8a8;
+		}
+		table.pb_response_unknown_user td.pb_response_content{
+			color: #888888;
+		}
+		p.pb_plurk_timestamp_and_other_stats, p.pb_plurk_timestamp_and_other_stats a, p.pb_response_timestamp{
+			font-size: 7.5pt;
+		}
+		p.pb_plurk_timestamp_and_other_stats, p.pb_response_timestamp{
+			color: gray;						
+			text-align: right;
+			white-space: nowrap;
+		}
+		table.pb_response_bg0{
+			background-color: #e8e8e8;
+		}
+		table.pb_response_bg1{
+			background-color: #d8d8d8;
+		}
+		table.pb_misc_people th{
+			font-weight: bold;
+			text-align: right;
+			border-right: 1px solid gray;
+			padding-right: 4px;
+		}
+		table.pb_misc_people td{
+			padding-left: 4px;
+		}
+		table.pb_misc_people .plurk_name{
+			font-weight: normal;
+		}
+		span.qualifier{
+			color: white;
+			padding: 0px 3px;
+		}
+		/* the following comes from plurk.com */
+		span.qualifier_is{background-color:#E57C43;}
+		span.qualifier_says{background-color:#E2560B;}
+		span.qualifier_feels, span.qualifier_needs{border-right:1px solid #304F09;border-bottom:1px solid #304F09;}
+		span.qualifier_needs{background-color:#7A9A37;}
+		span.qualifier_hopes{background-color:#e05be9;}
+		span.qualifier_feels{background-color:#2D83BE;}
+		span.qualifier_thinks{border-right:1px solid #254A64;border-bottom:1px solid #254A64;background-color:#689CC1;}
+		span.qualifier_wants{background-color:#8DB241;}
+		span.qualifier_wishes{background-color:#5BB017;}
+		span.qualifier_has{background-color:#777;}
+		span.qualifier_loves{border-right:1px solid #334E09;border-bottom:1px solid #334E09;background-color:#B20C0C;}
+		span.qualifier_hates{border-right:1px solid #444;border-bottom:1px solid #444;background-color:#111;}
+		span.qualifier_asks{border-right:1px solid #6A2C6F;border-bottom:1px solid #6A2C6F;background-color:#8361bc;}
+		span.qualifier_will{background-color:#B46DB9;}
+		span.qualifier_was{background-color:#525252;}
+		span.qualifier_had{background-color:#8C8C8C;}
+		span.qualifier_likes{background-color:#CB2728;}
+		span.qualifier_shares{background-color:#A74949;}
+		span.qualifier_gives{background-color:#620E0E;}
+		span.qualifier_wonders{background-color:#2e4e9e;}
+		span.qualifier_wants,span.qualifier_has, span.qualifier_wishes{border-right:1px solid #334C08;border-bottom:1px solid #334C08;}
+		span.qualifier_is, span.qualifier_says{border-right:1px solid #994215;border-bottom:1px solid #994215;}
+		span.qualifier_will, span.qualifier_asks, span.qualifier_hopes{border-right:1px solid #6A2C6F;border-bottom:1px solid #6A2C6F;}
+		span.qualifier_gives, span.qualifier_likes, span.qualifier_was, span.qualifier_wonders{border-right:1px solid #313131;border-bottom:1px solid #313131;}
+		span.qualifier_shares, span.qualifier_had{border-right:1px solid #454545;border-bottom:1px solid #454545;}
+		span.qualifier_whispers{background-color:#32007e}
